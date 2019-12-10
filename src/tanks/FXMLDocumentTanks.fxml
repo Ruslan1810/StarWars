@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="myAnchorPane2" prefHeight="200" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tanks.FXMLDocumentTanksController">
+   <children>
+      <Button layoutX="27.0" layoutY="147.0" mnemonicParsing="false" text="Button" />
+      <AnchorPane fx:id="myAnchorPane" layoutX="7.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextField fx:id="countField" layoutX="1150.0" prefHeight="25.0" prefWidth="50.0" />
+      <MenuButton layoutX="198.0" layoutY="12.0" mnemonicParsing="false" text="MenuButton">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#menuItemSave" text="Сохранить" />
+          <MenuItem mnemonicParsing="false" onAction="#menuItemLoad" text="Загрузить" />
+            <MenuItem mnemonicParsing="false" onAction="#menuItemContinue" text="Продолжить" />
+            <MenuItem mnemonicParsing="false" onAction="#menuItemNew" text="Новая игра" />
+        </items>
+      </MenuButton>
+   </children>
+</AnchorPane>
